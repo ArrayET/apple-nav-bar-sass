@@ -51,4 +51,79 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+/* MASTER CSS FILE */
+#nav-bar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  height: 45px;
+  width: 100vw;
+  background-color: #333;
+}
+
+#nav-bar-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+  width: 100%;
+  max-width: 1000px;
+  /* background-color: #666; */
+}
+
+.nav-li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 75px;
+  font-family: Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: .85em;
+  color: #FFF;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  -webkit-transition: .2s;
+  transition: .2s;
+  /* background-color: #999; */
+}
+
+.nav-li:hover {
+  color: #CCC;
+  -webkit-transition: .2s;
+  transition: .2s;
+}
+
+/* Targets Apple Logo */
+.nav-li:nth-child(1) {
+  font-size: 1.25em;
+}
+
+/* Targets Magnifying Glass Icon */
+.nav-li:nth-child(9) {
+  background: url(../imgs/icon-magnifying-glass.svg) no-repeat;
+  background-position: center center;
+}
+
+/* Targets Shopping Bag Icon */
+.nav-li:nth-child(10) {
+  background: url(../imgs/icon-shopping-bag.svg) no-repeat;
+  background-position: center center;
+}
 /*# sourceMappingURL=main.css.map */

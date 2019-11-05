@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="15px" viewBox="0 0 15 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-magnifying-glass</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav-bar" transform="translate(-1119.000000, -15.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="nav-bar-content">
+                <g transform="translate(220.000000, 10.000000)">
+                    <path d="M914,19.011976 L909.942705,14.9600798 C910.81542,13.8767191 911.291398,12.5281475 911.291805,11.1377246 C911.291805,7.75449102 908.533644,5 905.145903,5 C901.758161,5 899,7.75449102 899,11.1377246 C899,14.5209581 901.758161,17.2754491 905.145903,17.2754491 C906.57495,17.2754491 907.894071,16.7764471 908.943371,15.9481038 L913.000666,20 L914,19.011976 Z M905.135909,16.0578842 C902.422759,16.0523938 900.224685,13.8572444 900.219187,11.1477046 C900.219187,8.44311377 902.417722,6.23752495 905.135909,6.23752495 C907.854097,6.23752495 910.052665,8.44311377 910.052665,11.1477046 C910.062625,13.8522954 907.854097,16.0578842 905.135909,16.0578842 Z" id="icon-magnifying-glass"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

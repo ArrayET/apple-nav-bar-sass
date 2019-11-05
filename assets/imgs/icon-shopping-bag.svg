@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="17px" viewBox="0 0 14 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 59.1 (86144) - https://sketch.com -->
+    <title>icon-shopping-bag</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="nav-bar" transform="translate(-1206.000000, -13.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="nav-bar-content">
+                <g transform="translate(220.000000, 10.000000)">
+                    <path d="M998.5,6 L996.69,6 C996.41,4.14 994.65,3 993,3 C991.35,3 989.58,4.14 989.31,6 L987.5,6 C986.67,6 986,6.67 986,7.5 L986,18.5 C986,19.33 986.67,20 987.5,20 L998.5,20 C999.33,20 1000,19.33 1000,18.5 L1000,7.5 C1000,6.67 999.33,6 998.5,6 Z M993,4 C994.18,4 995.43,4.75 995.7,6 L990.3,6 C990.57,4.75 991.82,4 993,4 Z M999,18.5 C999,18.78 998.78,19 998.5,19 L987.5,19 C987.22,19 987,18.78 987,18.5 L987,7.5 C987,7.22 987.22,7 987.5,7 L998.5,7 C998.78,7 999,7.22 999,7.5 L999,18.5 Z" id="icon-shopping-bag"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
