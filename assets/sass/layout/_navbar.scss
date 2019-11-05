@@ -1,13 +1,13 @@
 // NAVBAR
 
-#nav-bar{
+nav{
     display: flex;
     justify-content: center;
 
     height: 45px;
     width:  100vw;
 
-    background-color: #333;
+    background-color: $navbar-bck-color;
 
     ul{
         display:flex;
@@ -18,17 +18,18 @@
         max-width: 1000px;
 
         li{
-            display: flex;
-            justify-content: center;
-            align-items: center;
+            @extend %perfect-center;
 
             height: 100%;
             width: 75px;
 
-            font-family: Helvetica, sans-serif;
-            font-weight: 300;
-            font-size: .85em;
-            color: #FFF;
+            font: {
+                family: $site-font-family;
+                weight: 300;
+                size: .85em;
+            }
+            
+            color: $navbar-font-color;
 
             cursor: pointer;
             user-select: none;
@@ -36,10 +37,10 @@
             transition: .2s;
 
             &:hover{
-                color: #CCC;
+                color: $navbar-hover-color;
                 transition: .2s;
             }
-        }
+        } // li
 
         li:nth-child(1){
             font-size: 1.25em;
@@ -54,5 +55,5 @@
             background: url(../imgs/icon-shopping-bag.svg) no-repeat;
             background-position: center center;
         }
-    }
-}
+    } // ul
+} // #nav-bar

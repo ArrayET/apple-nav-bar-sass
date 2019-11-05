@@ -52,7 +52,19 @@ table {
   border-spacing: 0;
 }
 
-#nav-bar {
+nav ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+nav {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -64,7 +76,7 @@ table {
   background-color: #333;
 }
 
-#nav-bar ul {
+nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -76,16 +88,7 @@ table {
   max-width: 1000px;
 }
 
-#nav-bar ul li {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+nav ul li {
   height: 100%;
   width: 75px;
   font-family: Helvetica, sans-serif;
@@ -101,22 +104,22 @@ table {
   transition: .2s;
 }
 
-#nav-bar ul li:hover {
+nav ul li:hover {
   color: #CCC;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
-#nav-bar ul li:nth-child(1) {
+nav ul li:nth-child(1) {
   font-size: 1.25em;
 }
 
-#nav-bar ul li:nth-child(9) {
+nav ul li:nth-child(9) {
   background: url(../imgs/icon-magnifying-glass.svg) no-repeat;
   background-position: center center;
 }
 
-#nav-bar ul li:nth-child(10) {
+nav ul li:nth-child(10) {
   background: url(../imgs/icon-shopping-bag.svg) no-repeat;
   background-position: center center;
 }
