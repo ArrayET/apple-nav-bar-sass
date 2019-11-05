@@ -52,7 +52,6 @@ table {
   border-spacing: 0;
 }
 
-/* MASTER CSS FILE */
 #nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -65,7 +64,7 @@ table {
   background-color: #333;
 }
 
-#nav-bar-content {
+#nav-bar ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -75,10 +74,9 @@ table {
   height: 100%;
   width: 100%;
   max-width: 1000px;
-  /* background-color: #666; */
 }
 
-.nav-li {
+#nav-bar ul li {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,28 +99,24 @@ table {
           user-select: none;
   -webkit-transition: .2s;
   transition: .2s;
-  /* background-color: #999; */
 }
 
-.nav-li:hover {
+#nav-bar ul li:hover {
   color: #CCC;
   -webkit-transition: .2s;
   transition: .2s;
 }
 
-/* Targets Apple Logo */
-.nav-li:nth-child(1) {
+#nav-bar ul li:nth-child(1) {
   font-size: 1.25em;
 }
 
-/* Targets Magnifying Glass Icon */
-.nav-li:nth-child(9) {
+#nav-bar ul li:nth-child(9) {
   background: url(../imgs/icon-magnifying-glass.svg) no-repeat;
   background-position: center center;
 }
 
-/* Targets Shopping Bag Icon */
-.nav-li:nth-child(10) {
+#nav-bar ul li:nth-child(10) {
   background: url(../imgs/icon-shopping-bag.svg) no-repeat;
   background-position: center center;
 }
